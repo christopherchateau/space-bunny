@@ -39,16 +39,17 @@ describe('GamePiece', () => {
 
   })
 
-  it('should collide with walls', () => {
+  it.skip('should collide with walls', () => {
 
 
   })
 
   it('should be able to move', () => {
-    const gamepiece2 = new GamePiece(50, 50, 10, 10, 'red', 'black');
-    assert.deepEqual(gamepiece, gamepiece2);
-    gamepiece2.move();
-    assert.notDeepEqual(gamepiece, gamepiece2);
+    const beforePosition = [gamepiece.x, gamepiece.y];
+    gamepiece.move();
+    const afterPosition = [gamepiece.x, gamepiece.y];
+    
+    assert.notDeepEqual(beforePosition, afterPosition);
   })
 
   it.skip('should be able to changeDirection', () => {})
