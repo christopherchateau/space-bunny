@@ -25,6 +25,5 @@ describe('Game', () => {
   it.skip('should take properties', () => {})
   it.skip('should end game', () => {})
   it.skip('should collide with walls', () => {})
-  it.skip('should be able to move', () => {})
   it.skip('should be able to changeDirection', () => {})
 })
