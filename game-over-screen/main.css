@@ -11,6 +11,13 @@ main{
   width: 700px;
 }
 
+img {
+  height: 200px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+}
+
 .top-half {
   background-color: #000051;
   color: #25e200;
@@ -25,14 +32,12 @@ main{
 }
 
 .frogger-title {
+  line-height: 1.6;
   color: #25e200;
   font-size: 42px;
   padding-top: 120px;
   text-align: center;
   text-shadow: 4px 4px red;
-}
-.top-half .points-table {
-  padding-top: 50px;
 }
 
 .press-start--konami {
@@ -42,17 +47,6 @@ main{
   text-align: center;
 }
 
-.points-table {
-  line-height: 1.4;
-  font-weight: 100;
-  color: #e7e912;
-  padding-left: 70px;
-}
-
-.red-text {
-  color: #de0402;
-}
-
 .bottom-half .press-start--konami {
-  padding-top: 80px;
+  padding-top: 68px;
 }
