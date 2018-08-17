@@ -6,7 +6,6 @@ describe('GamePiece', () => {
 
   beforeEach( () => {
     gamepiece = new GamePiece(50, 50, 10, 10, 'red', 'black');
-
   });
 
   it('should take properties', () => {
@@ -48,7 +47,7 @@ describe('GamePiece', () => {
     const beforePosition = [gamepiece.x, gamepiece.y];
     gamepiece.move();
     const afterPosition = [gamepiece.x, gamepiece.y];
-    
+
     assert.notDeepEqual(beforePosition, afterPosition);
   })
 

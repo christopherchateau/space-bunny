@@ -25,6 +25,13 @@ p {
   padding: 10px;
 }
 
+.start-screen--img {
+  margin: 20px auto 0 auto;
+  display: flex;
+  z-index: -1;
+
+}
+
 #game {
   border: 1px dashed;
   display: block;
@@ -59,6 +66,12 @@ p {
   opacity: 0;
   transition: visibility 0s 1s, opacity 1s linear;
   visibility: hidden;
+}
+
+.unhidden {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
 }
 
 /*color codes:
