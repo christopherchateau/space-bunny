@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  font-family: 'Press Start 2P', cursive;
+  height: 700px;
+  margin: 20px auto 0 auto;
+  width: 700px;
+}
+
+.top-half {
+  background-color: #000051;
+  color: #25e200;
+  height: 350px;
+  width: 700px;
+}
+
+.bottom-half {
+  background-color: black;
+  height: 350px;
+  width: 700px;
+}
+
+.frogger-title {
+  color: #25e200;
+  font-size: 42px;
+  padding-top: 120px;
+  text-align: center;
+  text-shadow: 4px 4px red;
+}
+.top-half .points-table {
+  padding-top: 50px;
+}
+
+.press-start--konami {
+  color: white;
+  font-size: 22px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.points-table {
+  line-height: 1.4;
+  font-weight: 100;
+  color: #e7e912;
+  padding-left: 70px;
+}
+
+.red-text {
+  color: #de0402;
+}
+
+.bottom-half .press-start--konami {
+  padding-top: 80px;
+}
+
+/*
+red #de0402
+yellow #e7e912*/
