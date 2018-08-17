@@ -41,6 +41,7 @@ p {
   height: 80px;
   justify-content: center;
   margin: 0 auto 50px auto;
+  outline: none;
   width: 300px;
 }
 
@@ -50,6 +51,15 @@ p {
   color: #000051;
 }
 
+.start-btn:disabled {
+  opacity: .2;
+}
+
+.hidden {
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+  visibility: hidden;
+}
 
 /*color codes:
 water #000051
