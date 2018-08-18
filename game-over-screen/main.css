@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  font-family: 'Press Start 2P', cursive;
+  height: 560px;
+  margin: 20px auto 0 auto;
+  width: 560px;
+}
+
+img {
+  height: 180px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.top-half {
+  background-color: #000051;
+  color: #25e200;
+  height: 280px;
+  width: 560px;
+}
+
+.bottom-half {
+  background-color: black;
+  height: 280px;
+  width: 560px;
+}
+
+.game-over {
+  line-height: 1.6;
+  color: #25e200;
+  font-size: 40px;
+  padding-top: 30px;
+  text-align: center;
+  text-shadow: 4px 4px red;
+}
+
+.press-start--konami {
+  color: white;
+  font-size: 18px;
+  padding-top: 34px;
+  text-align: center;
+}
+
+.bottom-half .press-start--konami {
+  padding-top: 38px;
+}

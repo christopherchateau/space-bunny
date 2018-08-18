@@ -15,7 +15,7 @@ header {
   font-size: 16px;
   justify-content: space-between;
   margin: 20px auto 0 auto;
-  width: 700px;
+  width: 560px;
 }
 
 p {
@@ -23,6 +23,13 @@ p {
   border: 6px solid #25e200;
   border-radius: 20px;
   padding: 10px;
+}
+
+.start-screen--img {
+  margin: 20px auto 0 auto;
+  display: flex;
+  z-index: -1;
+
 }
 
 #game {
@@ -41,6 +48,7 @@ p {
   height: 80px;
   justify-content: center;
   margin: 0 auto 50px auto;
+  outline: none;
   width: 300px;
 }
 
@@ -50,6 +58,21 @@ p {
   color: #000051;
 }
 
+.start-btn:disabled {
+  opacity: .2;
+}
+
+.hidden {
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+  visibility: hidden;
+}
+
+.unhidden {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
 
 /*color codes:
 water #000051
