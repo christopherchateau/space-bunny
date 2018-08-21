@@ -25,14 +25,17 @@ p {
   padding: 10px;
 }
 
-.start-screen--img {
+.start-screen--img,
+.game-over--img {
+  height: 560px;
   margin: 20px auto 0 auto;
-  display: flex;
-  z-index: -1;
-
+  right: 0;
+  left: 0;
+  position: absolute;
+  width: 560px;
 }
 
-#game {
+.game {
   border: 1px dashed;
   display: block;
   margin: 20px auto 30px auto;
@@ -68,14 +71,16 @@ p {
   visibility: hidden;
 }
 
+.hide {
+  display: none;
+}
+
 .unhidden {
   visibility: visible;
   opacity: 1;
   transition: opacity 1s linear;
 }
 
-/*color codes:
-water #000051
-purple #a200f8
-neon green #25e200
-hi-score red #ff0400*/
+.game-over {
+  background-image: url(assets/images/game-over.jpg);
+}
