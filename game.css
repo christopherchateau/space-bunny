@@ -18,6 +18,12 @@ header {
   width: 560px;
 }
 
+section {
+  height: 560px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 p {
   background-color: #000051;
   border: 6px solid #25e200;
@@ -28,7 +34,7 @@ p {
 .start-screen--img,
 .game-over--img {
   height: 560px;
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
   right: 0;
   left: 0;
   position: absolute;
@@ -38,7 +44,7 @@ p {
 .game {
   border: 1px dashed;
   display: block;
-  margin: 20px auto 30px auto;
+  margin: 0px auto;
 }
 
 .start-btn {
