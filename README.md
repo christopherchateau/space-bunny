@@ -11,3 +11,5 @@ During Module 2 of our studies at the Turing School of Software and Design, Chri
 4. On subsequent games, if the player's score is greater than their hi-score, their score is saved as the new hi-score.
 
 # Enjoy!!!
+
+https://jessica-erickson.github.io/game-time/
