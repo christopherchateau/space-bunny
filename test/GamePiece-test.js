@@ -1,55 +1,55 @@
-const { assert } = require('chai');
-const GamePiece = require('../lib/GamePiece');
+// const { assert } = require('chai');
+// const GamePiece = require('../lib/GamePiece');
 
-describe('GamePiece', () => {
-  let gamepiece;
+// describe('GamePiece', () => {
+//   let gamepiece;
 
-  beforeEach( () => {
-    gamepiece = new GamePiece(50, 50, 10, 10, 'red', 'black');
-  });
+//   beforeEach( () => {
+//     gamepiece = new GamePiece(50, 50, 10, 10, 'red', 'black');
+//   });
 
-  it('should take properties', () => {
-    assert.deepEqual(gamepiece, {
-      x: 50,
-      y: 50,
-      height: 10,
-      width: 10,
-      color: 'red',
-      dx: 1,
-      dy: 0,
-      dxv: 1,
-      dyv: 1
-    })
-  })
+//   it('should take properties', () => {
+//     assert.deepEqual(gamepiece, {
+//       x: 50,
+//       y: 50,
+//       height: 10,
+//       width: 10,
+//       color: 'red',
+//       dx: 1,
+//       dy: 0,
+//       dxv: 1,
+//       dyv: 1
+//     })
+//   })
 
-  it.skip('should collide with a second gamepiece that occupies the same space', () => {
-    const gamepiece2 = new GamePiece(30, 30, 10, 10, 'red');
+//   it.skip('should collide with a second gamepiece that occupies the same space', () => {
+//     const gamepiece2 = new GamePiece(30, 30, 10, 10, 'red');
 
-    const collisionResult = gamepiece.isCollidingWith(gamepiece2);
+//     const collisionResult = gamepiece.isCollidingWith(gamepiece2);
 
-    assert.isTrue(collisionResult);
-  });
+//     assert.isTrue(collisionResult);
+//   });
 
-  it('should not collide with a second gamepiece that does not occupy the same space', () => {
-    const gamepiece2 = new GamePiece(130, 130, 10, 10, 'red');
-    const collisionResult = gamepiece.isCollidingWith(gamepiece2);
+//   it('should not collide with a second gamepiece that does not occupy the same space', () => {
+//     const gamepiece2 = new GamePiece(130, 130, 10, 10, 'red');
+//     const collisionResult = gamepiece.isCollidingWith(gamepiece2);
 
-    assert.isFalse(collisionResult);
+//     assert.isFalse(collisionResult);
 
-  })
+//   })
 
-  it.skip('should collide with walls', () => {
+//   it.skip('should collide with walls', () => {
 
 
-  })
+//   })
 
-  it('should be able to move', () => {
-    const beforePosition = [gamepiece.x, gamepiece.y];
-    gamepiece.move();
-    const afterPosition = [gamepiece.x, gamepiece.y];
+//   it('should be able to move', () => {
+//     const beforePosition = [gamepiece.x, gamepiece.y];
+//     gamepiece.move();
+//     const afterPosition = [gamepiece.x, gamepiece.y];
 
-    assert.notDeepEqual(beforePosition, afterPosition);
-  })
+//     assert.notDeepEqual(beforePosition, afterPosition);
+//   })
 
-  it.skip('should be able to changeDirection', () => {})
-})
+//   it.skip('should be able to changeDirection', () => {})
+// })
