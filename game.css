@@ -90,3 +90,12 @@ p {
 .game-over {
   background-image: url(assets/images/game-over.jpg);
 }
+
+.level {
+  color: #25e200;
+  font-size: 40px;
+  position: relative;
+  bottom: 320px;
+  text-align: center;
+  text-shadow: 4px 4px red;
+}
