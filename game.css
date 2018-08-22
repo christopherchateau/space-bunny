@@ -92,10 +92,11 @@ p {
 }
 
 .level {
+  bottom: 32px;
   color: #25e200;
-  font-size: 40px;
+  font-size: 24px;
+  left: 160px;
   position: relative;
-  bottom: 320px;
   text-align: center;
   text-shadow: 4px 4px red;
 }
