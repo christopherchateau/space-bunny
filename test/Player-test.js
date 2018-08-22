@@ -5,7 +5,7 @@ describe('player', () => {
   let player;
 
   beforeEach( () => {
-    player = new Player(280, 480, '/assets/images/bunny.png');
+    player = new Player(280, 480, './assets/images/bunny.png');
   });
 
   it('should take properties', () => {
@@ -26,7 +26,7 @@ describe('player', () => {
   })
 
   it('should collide with a second player that occupies the same space', () => {
-    const player2 = new Player(290, 480, '/assets/images/bunny.png');
+    const player2 = new Player(290, 480, './assets/images/bunny.png');
 
     const collisionResult = player.isCollidingWith(player2);
 
@@ -34,7 +34,7 @@ describe('player', () => {
   });
 
   it('should not collide with a second player that does not occupy the same space', () => {
-    const player2 = new Player(320, 520, '/assets/images/bunny.png');
+    const player2 = new Player(320, 520, './assets/images/bunny.png');
     const collisionResult = player.isCollidingWith(player2);
 
     assert.isFalse(collisionResult);
@@ -168,7 +168,7 @@ describe('player', () => {
   });
 
   it('should snap back to grid if it gets displaced', () => {
-    const player2 = new Player(234, 440, '/assets/images/bunny.png');
+    const player2 = new Player(234, 440, './assets/images/bunny.png');
 
     assert.equal(player2.y, 440);
     assert.equal(player2.x, 234);
