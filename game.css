@@ -34,10 +34,10 @@ p {
 .start-screen--img,
 .game-over--img {
   height: 562px;
-  margin: 0 auto;
-  right: 0;
   left: 0;
+  margin: 0 auto;
   position: absolute;
+  right: 0;
   width: 562px;
 }
 
@@ -77,14 +77,14 @@ p {
   visibility: hidden;
 }
 
-.hide {
-  display: none;
-}
-
 .unhidden {
-  visibility: visible;
   opacity: 1;
   transition: opacity 1s linear;
+  visibility: visible;
+}
+
+.hide {
+  display: none;
 }
 
 .game-over {
