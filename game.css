@@ -33,12 +33,12 @@ p {
 
 .start-screen--img,
 .game-over--img {
-  height: 560px;
-  margin: 0 auto;
-  right: 0;
+  height: 562px;
   left: 0;
+  margin: 0 auto;
   position: absolute;
-  width: 560px;
+  right: 0;
+  width: 562px;
 }
 
 .game {
@@ -77,16 +77,26 @@ p {
   visibility: hidden;
 }
 
+.unhidden {
+  opacity: 1;
+  transition: opacity 1s linear;
+  visibility: visible;
+}
+
 .hide {
   display: none;
 }
 
-.unhidden {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 1s linear;
-}
-
 .game-over {
   background-image: url(assets/images/game-over.jpg);
+}
+
+.level {
+  bottom: 32px;
+  color: #25e200;
+  font-size: 24px;
+  left: 160px;
+  position: relative;
+  text-align: center;
+  text-shadow: 4px 4px red;
 }
