@@ -14,6 +14,4 @@ describe('Game', () => {
   beforeEach( () => {
     game = new Game(ctx);
   });
-
-
 })
