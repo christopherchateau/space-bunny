@@ -1,5 +1,6 @@
 const { assert } = require('chai');
 const Player = require('../lib/player');
+const Obstacle = require();
 
 describe('player', () => {
   let player;
@@ -14,7 +15,7 @@ describe('player', () => {
       y: 480,
       height: 40,
       width: 40,
-      src: '/assets/images/bunny.png',
+      src: './assets/images/bunny.png',
       dx: 0,
       dxv: 0,
       isDead: false,
@@ -35,7 +36,7 @@ describe('player', () => {
 
   it('should not collide with a second player that does not occupy the same space', () => {
     const player2 = new Player(320, 520, './assets/images/bunny.png');
-    const collisionResult = player.isCollidingWith(player2);
+    const collisionResult = player.isCollidingWith(new);
 
     assert.isFalse(collisionResult);
 
@@ -75,7 +76,7 @@ describe('player', () => {
     assert.equal(player.score, 0);
     assert.equal(player.farthest, 480);
 
-    player.move({key: 'ArrowUp'});
+    player.move({key: 'ArrowUp', preventDefault: () => {}});
     player.move({key: 'ArrowUp'});
     player.move({key: 'ArrowUp'});
 
