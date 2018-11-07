@@ -14,6 +14,6 @@ During Module 2 of our studies at the Turing School of Software and Design, Jess
 4. On subsequent games, if the player's score is greater than their hi-score, their score is saved as the new hi-score.
 
 
-<img src="https://github.com/christopherchateau/space-bunny/blob/master/src/images/spacebunny-screenshot-1.png" width="400px" />
+<img src="https://github.com/christopherchateau/space-bunny/blob/master/assets/images/spacebunny-screenshot-1.png" width="400px" />
 
-<img src="https://github.com/christopherchateau/space-bunny/blob/master/src/images/space-bunnyg.gif" width="400px" />
+<img src="https://github.com/christopherchateau/space-bunny/blob/master/assets/images/space-bunny.gif" width="400px" />
