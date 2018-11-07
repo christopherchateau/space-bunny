@@ -1,4 +1,4 @@
-### Check out the game on [GitHub Pages](https://christopherchateau.github.io/game-time/)!
+# Check out the game on [GitHub Pages](https://christopherchateau.github.io/game-time/)!
 (submit screenshots of all hi-scores to christopherchateu@gmail.com for verification)
  
 # Game Time - Space Bunny
