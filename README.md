@@ -12,3 +12,9 @@ During Module 2 of our studies at the Turing School of Software and Design, Jess
 3. For the first game, the player sets a hi-score.
 
 4. On subsequent games, if the player's score is greater than their hi-score, their score is saved as the new hi-score.
+
+
+<img src="https://github.com/bottd/SWAPI-Box/blob/master/src/images/spacebunny-screenshot-1.png" width="800px" />
+
+
+<img src="https://github.com/bottd/SWAPI-Box/blob/master/src/images/space-bunnyg.gif" width="800px" />
