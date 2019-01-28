@@ -1,7 +1,7 @@
 # Check out the game on [GitHub Pages](https://christopherchateau.github.io/game-time/)!
 (submit screenshots of all hi-scores to christopherchateu@gmail.com for verification)
  
-# Game Time - Space Bunny
+## Game Time - Space Bunny
 
 During Module 2 of our studies at the Turing School of Software and Design, Jessica Erickson and I were tasked with recreating the classic game "Frogger" using the HTML Canvas API, HTML, JavaScript, CSS, Local Storage, and an existing code base. For our interpretation, we envisioned an astronaut bunny exploring the surface of the moon. At the end of her mission, she needs to return to the Bunny Moon Space Station, and so do all of her bunny friends. We have a similar score setup to the original "Frogger": 
 
